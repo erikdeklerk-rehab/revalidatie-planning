@@ -1,0 +1,299 @@
+"WBS #","Name / Title",Type,"Start Date","End Date","Estimated Hours","Actual Hours","Percent Complete",Resources,Predecessors,Notes,Comments,"Task Color"
+1,"Opleiding Revalidatiegeneeskunde",project,2019-03-01,2029-09-01,0,0,60.78,,,,,
+1.1,"Alicia Lucardi",group,2020-09-01,2023-01-27,0,0,100,,,,,
+1.1.1,"Start opleiding",task,,,0,0,100,"01. Start opleiding",,,,blue2
+1.1.2,Dwarslaesie,task,,,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.1.3,ATO,task,,,0,0,100,"02. ATO",,,,red1
+1.1.4,"Kinderen Houthem",task,2020-09-01,2021-02-28,0,0,100,"12. Kinderen Houthem",,,,blue2
+1.1.5,"MUMC+ ziekenhuis",task,2021-03-01,2022-01-31,0,0,100,"11. Ziekenhuis Maastricht",1.1.4,,,brown1
+1.1.6,"MUMC+ academisch",task,2022-02-01,2022-08-05,0,0,100,"16. Academische stage Maastricht",1.1.5,,,pink1
+1.1.7,Keuze,task,2022-08-08,2023-01-27,0,0,100,"18. Keuzestage",1.1.6,,,purple2
+1.1.8,"Einde opleiding",milestone,2023-01-27,2023-01-27,0,0,100,"20. Einde opleiding",,,,blue2
+1.2,"Sanne Rooijakkers",group,2019-03-01,2024-02-07,0,0,100,,,,,
+1.2.1,"Start opleiding",task,2019-03-01,2019-03-01,0,0,100,"01. Start opleiding",,,,blue2
+1.2.2,Dwarslaesie,task,2019-03-01,2019-07-31,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.2.3,ATO,task,2019-08-01,2019-12-19,0,0,100,"02. ATO",1.2.2,,,red1
+1.2.4,Zwangerschapsverlof,task,2019-12-20,2020-04-08,0,0,100,"19. Zwangerschapsverlof",1.2.3,,,grey1
+1.2.5,Neurologie,task,2020-04-09,2020-09-30,0,0,100,"05. Neurologie",1.2.4,,,green3
+1.2.6,"Kinderen Venlo",task,2020-10-01,2021-05-10,0,0,100,"13. Kinderen Venlo",1.2.5,,,blue2
+1.2.7,"Ziekenhuis Venlo",task,2021-05-11,2021-05-31,0,0,100,"09. Ziekenhuis Venlo",1.2.6,,,brown1
+1.2.8,Zwangerschapsverlof,task,2021-06-01,2021-09-20,0,0,100,"19. Zwangerschapsverlof",1.2.7,,,grey1
+1.2.9,"Ziekenhuis Venlo",task,2021-09-21,2022-07-29,0,0,100,"09. Ziekenhuis Venlo",1.2.8,,,brown1
+1.2.10,MUMC+,task,2022-08-01,2023-02-28,0,0,100,"16. Academische stage Maastricht",1.2.9,,,pink1
+1.2.11,Pijn,task,2023-03-01,2023-06-30,0,0,100,"06. Pijn",1.2.10,,,green1
+1.2.12,"Keuzestage JBZ/Tolbrug",task,2023-07-03,2024-02-07,0,0,100,"18. Keuzestage",1.2.11,,,purple2
+1.2.13,"Einde opleiding",milestone,2024-02-07,2024-02-07,0,0,100,"20. Einde opleiding",,,,blue2
+1.3,"Wouter Vints",group,2020-01-20,2025-03-31,0,0,100,,,,,
+1.3.1,"Start opleiding",task,2020-01-20,2020-01-20,0,0,100,"01. Start opleiding",,,,blue2
+1.3.2,Neurologie,task,2020-01-20,2020-09-30,0,0,100,"05. Neurologie",1.3.1,,,green3
+1.3.3,Pijn,task,2020-10-01,2020-12-31,0,0,100,"06. Pijn",1.3.2,,,green1
+1.3.4,"Kinderen Breda",task,2021-01-01,2021-09-18,0,0,100,"14. Kinderen Breda",1.3.3,,,blue2
+1.3.5,"Ziekenhuis Breda",task,2021-09-18,2022-10-16,0,0,100,"10. Ziekenhuis Breda",1.3.4,,,brown1
+1.3.6,Dwarslaesie,task,2022-10-16,2023-04-21,0,0,100,"04. Dwarslaesie",1.3.5,,,yellow1
+1.3.7,Vaderschapsverlof,task,2023-04-24,2023-07-14,0,0,100,"19. Zwangerschapsverlof",1.3.6,,,grey1
+1.3.8,ATO,task,2023-07-17,2023-12-31,0,0,100,"02. ATO",1.3.7,,,red1
+1.3.9,MUMC,task,2024-01-01,2024-09-15,0,0,100,"16. Academische stage Maastricht",1.3.8,,,pink1
+1.3.10,Keuzestage,task,2024-09-16,2025-03-31,0,0,100,"18. Keuzestage",1.3.9,,,purple2
+1.3.11,"Einde opleiding",milestone,2025-03-31,2025-03-31,0,0,100,"20. Einde opleiding",,,,blue2
+1.4,"Eva-Maria Lefferts",group,2020-04-01,2024-02-14,0,0,100,,,"Laatste check: 18-03-2022",,
+1.4.1,"Start opleiding",task,2020-04-01,2020-04-01,0,0,100,"01. Start opleiding",,,,blue2
+1.4.2,ATO,task,2020-04-01,2020-07-31,0,0,100,"02. ATO",,,,red1
+1.4.3,Neurologie,task,2020-08-03,2021-04-30,0,0,100,"05. Neurologie",1.4.2,,,green3
+1.4.4,Dwarslaesie,task,2021-05-03,2021-09-01,0,0,100,"04. Dwarslaesie",1.4.3,,,yellow1
+1.4.5,"Poli cluster 01",task,2021-09-01,2021-10-29,0,0,100,"07. Polistage Centrum",1.4.4,,,yellow1
+1.4.6,"Viecuri - kinderrevalidatie",task,2021-11-01,2022-06-01,0,0,100,"13. Kinderen Venlo",1.4.5,,,blue2
+1.4.7,"Viecuri - volwassenenrevalidatie",task,2022-06-01,2023-02-01,0,0,100,"09. Ziekenhuis Venlo",1.4.6,,,brown1
+1.4.8,MUMC+,task,2023-02-01,2023-05-31,0,0,100,"16. Academische stage Maastricht",1.4.7,,,pink1
+1.4.9,"Keuzestage MRC Doorn",task,2023-06-01,2023-10-12,0,0,100,"18. Keuzestage",1.4.8,,,purple2
+1.4.10,"Keuzestage sportgeneeskunde",task,2023-10-16,2024-02-14,0,0,100,"18. Keuzestage",1.4.9,,,purple2
+1.4.11,"Einde opleiding",milestone,2024-02-14,2024-02-14,0,0,100,"20. Einde opleiding",,,,blue2
+1.5,"Audrey Vollebregt",group,2020-04-01,2024-09-15,0,0,100,,,,,
+1.5.1,"Start opleiding",task,2020-04-01,2020-04-01,0,0,100,"01. Start opleiding",,,,blue2
+1.5.2,Dwarslaesie,task,2020-04-01,2020-08-31,0,0,100,"04. Dwarslaesie",1.5.1,,,yellow1
+1.5.3,ATO,task,2020-09-01,2020-12-31,0,0,100,"02. ATO",1.5.2,,,red1
+1.5.4,Neurologie,task,2021-01-01,2021-07-31,0,0,100,"05. Neurologie",1.5.3,,,green3
+1.5.5,Pijn,task,2021-08-01,2021-10-30,0,0,100,"06. Pijn",1.5.4,,,green1
+1.5.6,"Kinderen Houthem",task,2021-08-13,2022-02-03,0,0,100,"12. Kinderen Houthem",1.5.5,,,blue2
+1.5.7,Zwangerschapsverlof,task,2022-02-04,2022-05-26,0,0,100,"19. Zwangerschapsverlof",1.5.6,,,grey1
+1.5.8,"Ziekenhuis Heerlen",task,2022-05-27,2023-06-30,0,0,100,"08. Ziekenhuis Heerlen",1.5.7,,,brown1
+1.5.9,MUMC+,task,2023-07-04,2024-01-28,0,0,100,"16. Academische stage Maastricht",1.5.8,,,pink1
+1.5.10,Keuzestage,task,2024-01-29,2024-09-15,0,0,100,"18. Keuzestage",1.5.9,,,purple2
+1.5.11,Kinderrevalidatie,task,2023-11-01,2024-01-28,0,0,100,,,,,blue2
+1.5.12,"Einde opleiding",task,2024-09-15,2024-09-15,0,0,100,"20. Einde opleiding",1.5.10,,,blue2
+1.6,"Kaily van Deursen",group,2021-01-01,2024-09-29,0,0,100,,,"Laatste check: 18-03-2022",,
+1.6.1,"Start opleiding",milestone,2021-01-01,2021-01-01,0,0,100,"01. Start opleiding",,,,blue2
+1.6.2,HRC,task,2021-01-01,2021-06-30,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.6.3,HRC,task,2021-07-01,2021-12-31,0,0,100,"02. ATO",1.6.2,,,red1
+1.6.4,HRC,task,2022-01-03,2022-04-28,0,0,100,"05. Neurologie",1.6.3,,,green3
+1.6.5,HRC,task,2022-05-02,2022-08-31,0,0,100,"06. Pijn",1.6.4,,,green1
+1.6.6,"Kinderen - Breda",task,2022-09-02,2023-03-01,0,0,100,"14. Kinderen Breda",1.6.5,,,blue2
+1.6.7,"ZH - VieCurie",task,2023-03-03,2023-11-01,0,0,100,"09. Ziekenhuis Venlo",1.6.6,,,brown1
+1.6.8,"ZH - MUMC+",task,2023-11-03,2024-03-31,0,0,100,"16. Academische stage Maastricht",1.6.7,,,pink1
+1.6.9,Keuzestage,task,2024-04-01,2024-09-29,0,0,100,"18. Keuzestage",1.6.8,,,purple2
+1.6.10,"Einde opleiding",milestone,2024-09-29,2024-09-29,0,0,100,"20. Einde opleiding",,,,blue2
+1.7,"Marije van der Knaap",group,2020-12-21,2025-01-31,0,0,83.18,,,"Laatste check: 18-03-2022",,
+1.7.1,"Start opleiding",milestone,2021-01-29,2021-01-29,0,0,100,"01. Start opleiding",,,,blue2
+1.7.2,"HRC - Amputatie",task,2020-12-21,2021-05-21,0,0,100,"02. ATO",,,,red1
+1.7.3,"HRC Hersenletsel",task,2021-05-24,2021-10-21,0,0,100,"05. Neurologie",1.7.2,,,green3
+1.7.4,"Revant - Kinderen",task,2021-12-06,2022-05-31,0,0,100,"10. Ziekenhuis Breda",1.7.3,,,brown1
+1.7.5,"ZH - Revant",task,2022-06-02,2023-03-30,0,0,100,"10. Ziekenhuis Breda",1.7.4,,,brown1
+1.7.6,"HRC - Dwarslaesie",task,2023-04-03,2023-08-30,0,0,100,"04. Dwarslaesie",1.7.5,,,yellow1
+1.7.7,"HRC - Pijn",task,2023-09-01,2023-12-01,0,0,100,"06. Pijn",1.7.6,,,green1
+1.7.8,"Keuzestage 1",task,2023-12-04,2024-03-03,0,0,100,"18. Keuzestage",1.7.7,,,purple2
+1.7.9,"ZH - MUMC+",task,2024-03-04,2024-09-01,0,0,50,"16. Academische stage Maastricht",1.7.8,,,pink1
+1.7.10,"Keuzestage 2",task,2024-09-02,2025-01-31,0,0,0,"18. Keuzestage",1.7.9,,,purple2
+1.7.11,"Einde opleiding",milestone,2025-01-31,2025-01-31,0,0,0,"20. Einde opleiding",,,,blue2
+1.8,"Marthe Bartier",group,2021-05-03,2021-10-29,0,0,100,,,"Hoensbroek: 18
+Kinderen: 6
+ZH Heerlen: 12
+Academie: 6
+Keuze: 6",,
+1.8.1,"Start opleiding",milestone,2021-05-03,2021-05-03,0,0,100,"01. Start opleiding",,,,blue2
+1.8.2,"HRC - Pijn",task,2021-05-03,2021-07-30,0,0,100,"06. Pijn",,,,green1
+1.8.3,"HRC - Neurologie",task,2021-08-03,2021-10-29,0,0,100,"05. Neurologie",1.8.2,,,green3
+1.8.4,"Opleiding gestopt",milestone,2021-10-29,2021-10-29,0,0,100,"20. Einde opleiding",,,,blue2
+1.9,"Anne Schijvens - Libra 2022",group,2022-03-01,2023-02-28,0,0,100,,,"Laatste check: 18-03-2022",,
+1.9.1,"Start in Hoensbroek",milestone,2022-03-01,2022-03-01,0,0,100,"01. Start opleiding",,,,blue2
+1.9.2,Neurologie,task,2022-03-01,2022-07-29,0,0,100,"05. Neurologie",,,,green3
+1.9.3,Dwarslaesie,task,2022-08-01,2022-11-30,0,0,100,"04. Dwarslaesie",1.9.2,,,yellow1
+1.9.4,"Academische stage Maastricht",task,2022-12-01,2023-02-28,0,0,100,"16. Academische stage Maastricht",1.9.3,,,pink1
+1.9.5,"Einde periode Adelante",milestone,2023-02-28,2023-02-28,0,0,100,"20. Einde opleiding",,,,blue2
+1.10,"Laura Baltus",group,2021-12-27,2025-12-30,0,0,85.5,,,"Laatste check: 18-03-22",,
+1.10.1,"Start opleiding",milestone,2021-12-27,2021-12-27,0,0,100,"01. Start opleiding",,,,blue2
+1.10.2,Dwarslaesie,task,2021-12-27,2022-05-31,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.10.3,ATO,task,2022-06-01,2022-09-30,0,0,100,"02. ATO",1.10.2,,,red1
+1.10.4,"Polistage cluster 1",task,2022-10-03,2022-12-30,0,0,100,"07. Polistage Centrum",1.10.3,,,yellow1
+1.10.5,Neurologie,task,2023-01-02,2023-05-31,0,0,100,"05. Neurologie",1.10.4,,,green3
+1.10.6,Pijn,task,2023-06-01,2023-08-31,0,0,100,"06. Pijn",1.10.5,,,green1
+1.10.7,"Kinderen Houthem",task,2023-09-01,2024-03-31,0,0,100,"12. Kinderen Houthem",1.10.6,,,blue2
+1.10.8,"Ziekenhuis Heerlen",task,2024-04-01,2025-02-02,0,0,100,"08. Ziekenhuis Heerlen",1.10.7,,,brown1
+1.10.9,MUMC+,task,2025-02-03,2025-06-01,0,0,100,"16. Academische stage Maastricht",1.10.8,,,pink1
+1.10.10,"Keuze ziekenhuis",task,2025-06-02,2025-12-30,0,0,0,"18. Keuzestage",1.10.9,,,purple2
+1.11,"Yvonne van de Pasch",group,2022-02-28,2026-09-18,0,0,73.24,,,"Laatste check: 18-03-2022",,
+1.11.1,"Start opleiding",milestone,2022-02-28,2022-02-28,0,0,100,"01. Start opleiding",,,,blue2
+1.11.2,Neurologie,task,2022-03-01,2022-08-31,0,0,100,"05. Neurologie",,,,green3
+1.11.3,ATO,task,2022-09-01,2022-12-30,0,0,100,"02. ATO",1.11.2,,,red1
+1.11.4,Dwarslaesie,task,2022-12-30,2023-06-29,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.11.5,"Poli Cluster 1",task,2023-06-30,2023-10-30,0,0,100,"07. Polistage Centrum",1.11.4,,,green1
+1.11.6,"Ziekenhuis Venlo",task,2023-11-01,2024-11-17,0,0,100,"09. Ziekenhuis Venlo",1.11.5,,,brown1
+1.11.7,"Kinderen Venlo",task,2024-11-18,2025-06-29,0,0,100,"13. Kinderen Venlo",1.11.6,,,blue2
+1.11.8,"Comi poli HRC en kidfs Houthem",task,2025-06-30,2025-10-30,0,0,0,"12. Kinderen Houthem, 07. Polistage Centrum",,,,yellow1
+1.11.9,MUMC+,task,2025-11-01,2026-04-30,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.11.10,"Keuzestage 2",task,2026-05-02,2026-09-18,0,0,0,"18. Keuzestage",,,,purple2
+1.11.11,"Einde opleiding",milestone,2026-09-18,2026-09-18,0,0,0,"20. Einde opleiding",,,,blue2
+1.12,"Fleur Voragen",group,2022-07-01,2027-03-17,0,0,60.36,,,,,
+1.12.1,"Start opleiding",milestone,2022-07-01,2022-07-01,0,0,100,"01. Start opleiding",,,,blue2
+1.12.2,Dwarslaesie,task,2022-07-01,2023-01-01,0,0,100,"04. Dwarslaesie",1.12.1,,,yellow1
+1.12.3,ATO,task,2023-01-01,2023-04-28,0,0,100,"02. ATO",1.12.2,,,red1
+1.12.4,"Ziekenhuis Heerlen ",task,2023-05-01,2024-01-10,0,0,100,"08. Ziekenhuis Heerlen",,,,brown1
+1.12.5,"Zwangerschapsverlof / Ouderschapsverlof / Vakantie",task,2024-01-11,2024-07-31,0,0,100,"19. Zwangerschapsverlof",1.12.4,,,grey1
+1.12.6," Kinderen Houthem ",task,2024-08-01,2025-02-02,0,0,100,"12. Kinderen Houthem",1.12.5,,,blue2
+1.12.7,Pijn,task,2025-02-03,2025-05-04,0,0,100,"06. Pijn",1.12.6,,,green1
+1.12.8,Neurologie,task,2025-05-05,2025-11-02,0,0,0,"05. Neurologie",1.12.7,,,green3
+1.12.9,"Keuze ziekenhuis Zuyderland",task,2025-11-03,2026-02-01,0,0,0,"17.Ziekenhuis Keuze",1.12.8,,,brown1
+1.12.10,MUMC+,task,2026-02-02,2026-08-02,0,0,0,"16. Academische stage Maastricht",1.12.9,,,pink1
+1.12.11,Keuze,task,2026-08-03,2027-03-17,0,0,0,"18. Keuzestage",1.12.10,,,purple2
+1.12.12,"Einde opleiding",milestone,2027-03-17,2027-03-17,0,0,0,"20. Einde opleiding",1.12.11,,,blue2
+1.12.13,"Uitgerekende datum",milestone,2024-02-20,2024-02-20,0,0,100,,,,,blue2
+1.13,"Tessa van Gansewinkel",group,2022-07-01,2024-09-30,0,0,100,,,,,
+1.13.1,"Start opleiding",milestone,2022-07-01,2022-07-01,0,0,100,"01. Start opleiding",,,,blue2
+1.13.2,Neurologie,task,2022-07-01,2022-11-30,0,0,100,"05. Neurologie",1.13.1,,,green3
+1.13.3,"Kinderen Houthem",task,2022-12-01,2023-06-29,0,0,100,"12. Kinderen Houthem",1.13.2,,,blue2
+1.13.4,"Ziek - begindatum nog niet helemaal duidelijk",task,2023-08-10,2023-10-27,0,0,100,,,,,blue2
+1.13.5,"Dwarslaesie - herstart",task,2023-10-31,2024-03-05,0,0,100,"04. Dwarslaesie","1.13.3,1.13.4",,,yellow1
+1.13.6,"Zwangerschapsverlof / ouderschapsverlof / vakantie",task,2024-03-06,2024-09-01,0,0,100,"19. Zwangerschapsverlof",1.13.5,,,grey1
+1.13.7,Pijn,task,2024-09-02,2024-09-30,0,0,100,"06. Pijn",,,,green1
+1.13.8,"Einde opleiding",milestone,2024-09-30,2024-09-30,0,0,100,"20. Einde opleiding",,,,blue2
+1.14,"Anke Maas - Libra",group,2023-03-01,2024-02-29,0,0,100,,,,,
+1.14.1,"Start opleiding",milestone,2023-03-01,2023-03-01,0,0,100,,,,,blue2
+1.14.2,Neurologie,task,2023-03-01,2023-07-31,0,0,100,"05. Neurologie",1.14.1,,,green3
+1.14.3,Dwarslaesie,task,2023-08-01,2023-12-01,0,0,100,"04. Dwarslaesie",1.14.2,,,yellow1
+1.14.4,MUMC+,task,2023-12-04,2024-02-29,0,0,100,"16. Academische stage Maastricht",1.14.3,,,pink1
+1.14.5,"Einde opleiding",milestone,2024-02-29,2024-02-29,0,0,100,,1.14.4,,,blue2
+1.15,"Larissa van den Bogaard",group,2023-03-01,2027-02-28,0,0,64.79,,,,,
+1.15.1,"Start opleiding",milestone,2023-03-01,2023-03-01,0,0,100,,,,,blue2
+1.15.2,"Ziekenhuis Breda",task,2023-03-02,2023-12-01,0,0,100,"09. Ziekenhuis Venlo",1.15.1,,,brown1
+1.15.3,"Kinderen Breda",task,2023-12-04,2024-06-02,0,0,100,"14. Kinderen Breda",1.15.2,,,blue2
+1.15.4,Dwarslaesie,task,2024-06-03,2024-11-03,0,0,100,"04. Dwarslaesie",1.15.3,,,yellow1
+1.15.5,Neurologie,task,2024-11-04,2025-05-04,0,0,100,"05. Neurologie",1.15.4,,,green3
+1.15.6,ATO,task,2025-05-05,2025-10-01,0,0,100,"02. ATO",1.15.5,,,red1
+1.15.7,Poli,task,2025-10-03,2026-03-30,0,0,0,"07. Polistage Centrum, 06. Pijn",1.15.6,,,green1
+1.15.8,"Academische stage Maastricht",task,2026-04-01,2026-08-29,0,0,0,"16. Academische stage Maastricht",1.15.7,,,pink1
+1.15.9,Keuzestage,task,2026-08-30,2027-02-27,0,0,0,"18. Keuzestage",1.15.8,,,purple2
+1.15.10,"Einde opleiding",milestone,2027-02-28,2027-02-28,0,0,0,,,,,blue2
+1.16,"Eline Veenstra",group,2023-04-03,2027-08-31,0,0,49.53,,,,,
+1.16.1,"Start opleiding Adelante",milestone,2023-04-07,2023-04-07,0,0,100,,,,,blue2
+1.16.2,ATO,task,2023-04-03,2023-08-31,0,0,100,"02. ATO",,,,red1
+1.16.3,"Poli of Pijnstage",task,2023-09-01,2023-12-01,0,0,100,"07. Polistage Centrum",1.16.2,,,green1
+1.16.4,Dwarslaesie,task,2023-12-04,2024-06-02,0,0,100,"04. Dwarslaesie",1.16.3,,,yellow1
+1.16.5,Maastricht ,task,2024-06-03,2024-11-03,0,0,100,"16. Academische stage Maastricht",1.16.4,,,pink1
+1.16.6,"Kinderen Houthem",task,2024-11-04,2025-06-07,0,0,100,"12. Kinderen Houthem",,,,blue2
+1.16.7,Neurologie,task,2025-06-09,2026-01-17,0,0,0,"05. Neurologie",,,,green3
+1.16.8,"Polistage Hoensbroek spast / gangbeeld",task,2026-01-19,2026-04-11,0,0,0,,,,,blue2
+1.16.9,"Ziekenhuis Heerlen",task,2026-04-13,2027-03-06,0,0,0,"08. Ziekenhuis Heerlen",,,,brown1
+1.16.10,Keuzestage,task,2027-03-08,2027-08-31,0,0,0,"18. Keuzestage",1.16.9,,,purple2
+1.17,"Merel Klok",group,2023-06-01,2027-02-26,0,0,48.86,,,,,
+1.17.1,"Start opleiding Adelante",task,2023-06-01,2023-06-01,0,0,100,,,,,blue2
+1.17.2,Hersenziekten,task,2023-06-01,2023-12-01,0,0,100,"05. Neurologie",,,,green3
+1.17.3,ATO,task,2023-12-04,2024-03-31,0,0,100,"02. ATO",,,,red1
+1.17.4,Pijnstage,task,2024-04-02,2024-06-30,0,0,100,"06. Pijn",,,,green1
+1.17.5,"Ziekenhuis Venlo",task,2024-07-01,2025-03-30,0,0,100,"09. Ziekenhuis Venlo",,,,brown1
+1.17.6,"Academische stage",task,2025-03-31,2025-08-31,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.17.7,"Kinderen Venlo",task,2025-09-01,2026-03-01,0,0,0,"13. Kinderen Venlo",,,,blue2
+1.17.8,Dwarslaesie,task,2026-03-02,2026-08-30,0,0,0,"04. Dwarslaesie",,,,yellow1
+1.17.9,Keuzestage,task,2026-08-31,2027-02-26,0,0,0,"18. Keuzestage",,,,purple2
+1.18,"Irma Schoutrop",group,2024-03-01,2025-02-28,0,0,75.2,,,,,
+1.18.1,"Start opleiding Adelante",milestone,2024-03-01,2024-03-01,0,0,0,,,,,blue2
+1.18.2,Hersenziekten,task,2024-03-01,2024-06-30,0,0,100,"05. Neurologie",1.18.1,,,green3
+1.18.3,Dwarslaesie,task,2024-07-01,2024-12-01,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.18.4,"Academische stage Maastricht",task,2024-12-02,2025-02-28,0,0,0,"16. Academische stage Maastricht",1.18.3,,,pink1
+1.18.5,"Einde opleiding Adelante",milestone,2025-02-28,2025-02-28,0,0,0,,1.18.4,,,blue2
+1.19,"Myrthe de Hertogh",group,2024-02-01,2027-10-29,0,0,29,,,,,
+1.19.1,"Start opleiding Adelante",milestone,2024-02-01,2024-02-01,0,0,100,"01. Start opleiding",,,,blue2
+1.19.2,Centrum,subgroup,2024-02-01,2025-03-02,0,0,100,,,,,
+1.19.2.1,Dwarslaesie,task,2024-02-01,2024-06-30,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.19.2.2,Cardio,task,2024-07-01,2024-09-29,0,0,100,"03. Cardio",,,,red1
+1.19.2.3,ATO,task,2024-09-30,2025-03-02,0,0,100,"02. ATO",,,,red1
+1.19.3,"Ziekenhuis Heerlen",task,2025-03-03,2026-01-04,0,0,0,"08. Ziekenhuis Heerlen",,,,brown1
+1.19.4,"Kinderen Houthem",task,2026-01-05,2026-06-28,0,0,0,"12. Kinderen Houthem",1.19.3,,,blue2
+1.19.5,Neuro,task,2026-06-29,2026-11-01,0,0,0,"05. Neurologie",,,,green3
+1.19.6,Academisch,task,2026-11-02,2027-02-28,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.19.7,Keuze,task,2027-03-01,2027-10-29,0,0,0,,,,,blue2
+1.19.8,"Einde opleiding Adelante",milestone,2027-10-29,2027-10-29,0,0,0,"20. Einde opleiding",,,,blue2
+1.20,"Jasmijn Murk",group,2024-01-01,2027-10-29,0,0,41.57,,,,,
+1.20.1,"Start opleiding Adelante",milestone,2024-01-01,2024-01-01,0,0,100,,,,,blue2
+1.20.2,Centrum,subgroup,2024-01-01,2025-08-03,0,0,100,,,,,
+1.20.2.1,Neurologie,task,2024-01-01,2024-06-02,0,0,100,"05. Neurologie",1.20.1,,,green3
+1.20.2.2,ATO,task,2024-06-03,2024-09-29,0,0,100,"02. ATO",,,,red1
+1.20.2.3,Cardio,task,2024-09-30,2024-12-01,0,0,100,"03. Cardio",,,,red1
+1.20.2.4,Dwarslaesie,task,2024-12-02,2025-05-04,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.20.2.5,Pijn,task,2025-05-05,2025-08-03,0,0,100,"06. Pijn",,,,green1
+1.20.3,"Ziekenhuis Venlo",task,2025-08-04,2026-08-02,0,0,0,"09. Ziekenhuis Venlo",,,,brown1
+1.20.4,"Kinderen Venlo",task,2026-08-03,2027-01-31,0,0,0,"13. Kinderen Venlo",1.20.3,,,blue2
+1.20.5,Academisch,task,2027-02-01,2027-05-02,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.20.6,Keuze,task,2027-05-03,2027-10-29,0,0,0,"18. Keuzestage",,,,purple2
+1.20.7,"Einde opleiding Adelante",milestone,2027-10-29,2027-10-29,0,0,0,,1.20.6,,,blue2
+1.21,"Lucia Snobl",group,2024-03-01,2027-12-31,0,0,39.13,,,,,
+1.21.1,"Start opleiding Adelante",milestone,2024-03-01,2024-03-01,0,0,0,,,,,blue2
+1.21.2,Centrum,subgroup,2024-03-01,2025-08-31,0,0,100,,,,,
+1.21.2.1,ATO,task,2024-03-01,2024-06-30,0,0,100,"02. ATO",,,,red1
+1.21.2.2,Neurologie,task,2024-07-01,2024-11-03,0,0,100,"05. Neurologie",,,,green3
+1.21.2.3,Dwarslaesie,task,2024-11-04,2025-03-30,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.21.2.4,Cardio,task,2025-03-31,2025-06-01,0,0,100,"03. Cardio",,,,red1
+1.21.2.5,Poli ,task,2025-06-02,2025-08-31,0,0,100,"07. Polistage Centrum",,,,green1
+1.21.3,"Ziekenhuis Heerlen",task,2025-09-01,2026-08-30,0,0,0,"08. Ziekenhuis Heerlen",1.21.2.5,,,brown1
+1.21.4,"Kinderen Houthem",task,2026-08-31,2027-02-28,0,0,0,"12. Kinderen Houthem",1.21.3,,,blue2
+1.21.5,Academisch,task,2027-03-01,2027-06-27,0,0,0,"16. Academische stage Maastricht",1.21.4,,,pink1
+1.21.6,Keuze,task,2027-06-28,2027-12-31,0,0,0,"18. Keuzestage",1.21.5,,,purple2
+1.21.7,"Einde opleiding Adelante",milestone,2027-12-31,2027-12-31,0,0,0,,1.21.6,,,blue2
+1.22,"Deborah Janssen",group,2024-12-01,2028-08-31,0,0,13.11,,,,,
+1.22.1,"Start opleiding Adelante",milestone,2024-12-01,2024-12-01,0,0,100,,,,,blue2
+1.22.2,Centrum,subgroup,,,0,0,0,,,,,
+1.22.3,"Kinderen Breda",task,2024-12-01,2025-05-28,0,0,100,"14. Kinderen Breda",,,,blue2
+1.22.4,"Ziekenhuis Breda",task,2025-05-30,2026-06-02,0,0,0,"10. Ziekenhuis Breda",1.22.3,,,brown1
+1.22.5,Dwarslaesie,task,2026-06-01,2026-11-01,0,0,0,"04. Dwarslaesie",1.22.4,,,yellow1
+1.22.6,Neurologie,task,2026-11-01,2027-02-27,0,0,0,"05. Neurologie",1.22.5,,,green3
+1.22.7,ATO,task,2027-03-01,2027-05-30,0,0,0,"02. ATO",1.22.6,,,red1
+1.22.8,Poliklinisch,task,2027-05-31,2027-11-28,0,0,0,"06. Pijn",1.22.7,,,yellow1
+1.22.9,Academisch,task,2027-11-29,2028-02-27,0,0,0,"16. Academische stage Maastricht",1.22.8,,,pink1
+1.22.10,Keuze,task,2028-02-28,2028-08-31,0,0,0,"18. Keuzestage",1.22.9,,,purple2
+1.22.11,"Eind opleiding Adelante",milestone,2028-08-31,2028-08-31,0,0,0,,,,,blue2
+1.23,"Nina Mille",group,2025-03-03,2026-02-27,0,0,42.31,,,,,
+1.23.1,"Start opleiding Adelante",milestone,2025-03-03,2025-03-03,0,0,0,,,,,blue2
+1.23.2,Neurologie,task,2025-03-03,2025-08-03,0,0,100,"05. Neurologie",1.23.1,,,green3
+1.23.3,Dwarslaesie,task,2025-08-04,2025-11-30,0,0,0,"04. Dwarslaesie",1.23.2,,,yellow1
+1.23.4,Academisch,task,2025-12-01,2026-02-27,0,0,0,"16. Academische stage Maastricht",1.23.3,,,pink1
+1.23.5,"Einde opleiding Adelante",milestone,2026-02-27,2026-02-27,0,0,0,,1.23.4,,,blue2
+1.24,"Suzanne Zegers",group,2025-03-03,2029-03-02,0,0,41.14,,,,,
+1.24.1,"Start opleiding Adelante",milestone,2025-03-03,2025-03-03,0,0,0,,,,,blue2
+1.24.2,Dwarslaesie,task,2025-03-04,2025-08-01,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.24.3,Academisch,task,2025-08-02,2025-11-01,0,0,0,"16. Academische stage Maastricht",1.24.2,,,pink1
+1.24.4,Neurologie,task,2025-11-03,2026-03-04,0,0,0,"05. Neurologie",1.24.3,,,green3
+1.24.5,"Einde opleiding Adelante",milestone,2029-03-02,2029-03-02,0,0,0,,,,,blue2
+1.25,"Libra aios 2026",group,2026-03-02,2027-02-28,0,0,0,,,,,
+1.25.1,"Start opleiding Adelante",milestone,2026-03-02,2026-03-02,0,0,0,,,,,blue2
+1.25.2,Neurologie,task,2026-03-02,2026-07-31,0,0,0,"05. Neurologie",1.25.1,,,green3
+1.25.3,Dwarslaesie,task,2026-08-03,2026-11-27,0,0,0,"04. Dwarslaesie",1.25.2,,,yellow1
+1.25.4,Academisch,task,2026-11-27,2027-02-26,0,0,0,"16. Academische stage Maastricht",1.25.3,,,pink1
+1.25.5,"Einde opleiding Adelante",milestone,2027-02-28,2027-02-28,0,0,0,,,,,blue2
+1.26,"Libra aios 2027",group,2027-03-01,2028-02-29,0,0,0,,,,,
+1.26.1,"Start opleiding Adelante",milestone,2027-03-01,2027-03-01,0,0,0,,,,,blue2
+1.26.2,Neurologie,task,2027-03-01,2027-07-30,0,0,0,"05. Neurologie",1.26.1,,,green3
+1.26.3,Dwarslaesie,task,2027-08-02,2027-11-30,0,0,0,"04. Dwarslaesie",1.26.2,,,yellow1
+1.26.4,Academisch,task,2027-12-01,2028-02-29,0,0,0,"16. Academische stage Maastricht",1.26.3,,,pink1
+1.26.5,"Einde opleiding Adelante",milestone,2028-02-29,2028-02-29,0,0,0,,1.26.4,,,blue2
+1.27,"Sanne Theeuwen",group,2025-03-01,2028-12-02,0,0,9.54,,,,,
+1.27.1,"Start opleiding",milestone,2025-03-01,2025-03-01,0,0,0,,,,,blue2
+1.27.2,Revalidatiecentrum,task,2025-03-01,2026-08-29,0,0,0,,,,,blue2
+1.27.3,Dwarslaesie,task,2025-03-01,2025-08-30,0,0,100,"04. Dwarslaesie",,,,yellow1
+1.27.4,Pijn,task,2025-09-01,2025-11-29,0,0,0,"06. Pijn",,,,green1
+1.27.5,ATO,task,2025-12-01,2026-04-02,0,0,0,"02. ATO",,,,red1
+1.27.6,Neurologie,task,2026-04-01,2026-08-30,0,0,0,"05. Neurologie",,,,green3
+1.27.7,Kinderen,task,2026-09-01,2027-03-01,0,0,0,"14. Kinderen Breda",,,,blue2
+1.27.8,"Ziekenhuis Breda",task,2027-03-01,2028-01-29,0,0,0,"10. Ziekenhuis Breda",,,,brown1
+1.27.9,Academisch,task,2028-01-31,2028-06-04,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.27.10,Keuzestage,task,2028-06-03,2028-11-28,0,0,0,"18. Keuzestage",,,,purple2
+1.27.11,"Einde opleiding",milestone,2028-12-02,2028-12-02,0,0,0,,,,,blue2
+1.28,"Liam Krammerhoffer",group,2025-07-31,2029-06-01,0,0,0,,,,,
+1.28.1,"Start opleiding",milestone,2025-07-31,2025-07-31,0,0,0,,,,,blue2
+1.28.2,Revalidatiecentrum,task,,,0,0,0,,,,,blue2
+1.28.3,ATO ,task,2025-08-06,2025-11-30,0,0,0,"02. ATO",,,,red1
+1.28.4,Dwarslaesie,task,2025-12-01,2026-05-30,0,0,0,"04. Dwarslaesie",,,,yellow1
+1.28.5,Pijn,task,2026-06-01,2026-08-31,0,0,0,"06. Pijn",,,,green1
+1.28.6,"Ziekenhuis Heerlen",task,2026-09-01,2027-08-01,0,0,0,"08. Ziekenhuis Heerlen",,,,brown1
+1.28.7,Kinderen,task,2027-08-02,2028-01-30,0,0,0,"12. Kinderen Houthem",,,,blue2
+1.28.8,Neurologie,task,2028-01-31,2028-07-02,0,0,0,"05. Neurologie",,,,green3
+1.28.9,Academisch,task,2028-07-03,2028-12-03,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.28.10,Keuzestage,task,2028-12-04,2029-06-01,0,0,0,"18. Keuzestage",,,,purple2
+1.28.11,"Eind opleiding",milestone,2029-06-01,2029-06-01,0,0,0,,,,,blue2
+1.29,"AIOS 2025-03 VOORLOPIG",group,2025-12-01,2029-09-01,0,0,0,,,,,
+1.29.1,"Start opleiding",milestone,2025-12-01,2025-12-01,0,0,0,,,,,blue2
+1.29.2,ATO,task,2025-12-03,2026-03-29,0,0,0,"02. ATO",,,,red1
+1.29.3,Neurologie,task,2026-03-30,2026-08-31,0,0,0,"05. Neurologie",,,,green3
+1.29.4,Dwarslaesie,task,2026-08-31,2027-01-26,0,0,0,"04. Dwarslaesie",,,,yellow1
+1.29.5,"Ziekenhuis Venlo",task,2027-02-01,2028-02-02,0,0,0,"09. Ziekenhuis Venlo",,,,brown1
+1.29.6,"Kinderen Venlo",task,2028-02-02,2028-08-01,0,0,0,"13. Kinderen Venlo",,,,blue2
+1.29.7,gat,task,2028-08-02,2028-10-29,0,0,0,,,,,blue2
+1.29.8,Academisch,task,2028-10-30,2029-02-26,0,0,0,"16. Academische stage Maastricht",,,,pink1
+1.29.9,Keuzestage,task,2029-03-01,2029-08-31,0,0,0,"18. Keuzestage",,,,purple2
+1.29.10,"Einde opleiding",milestone,2029-09-01,2029-09-01,0,0,0,,,,,blue2
